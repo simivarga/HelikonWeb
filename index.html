@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Montserrat:ital,wght@0,200;0,300;0,400;0,800;1,200;1,300&family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+    <title>Готель Гелікон - Яноші</title>
+</head>
+<body>
+    <div class="main_part">
+            <header class="header">
+                <div class="icon">
+                    <img src="./img/logo.png" alt="Helikon Hotel Logo" width="50" height="50">
+                </div>
+                <div class="list">
+                    <ul class="un_list">
+                        <li><a href="#hotelStandart" class="header_ul_item">Готель</a></li>
+                        <li><a href="#restaurant" class="header_ul_item">Ресторан</a></li>
+                        <li><a href="#additionalService" class="header_ul_item">Соляна кімната</a></li>
+                        <li><a href="#additionalService" class="header_ul_item">Конференц-зал</a></li>
+                        <li><a href="#contacts" class="header_ul_item">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="language">
+                    <select id="languageSelector" class="change_lng">
+                        <option class="option_selected" value="UA" selected>UA</option>
+                        <option class="option_selected" value="hu">HU</option>
+                        <option class="option_selected" value="ENG">ENG</option>
+                    </select>
+                </div>
+                
+            </header>
+            
+            <div class="center_text">
+                <div class="center_text_top">
+                    <h1 class="header_text">HELIKON</h1>
+                    <h3 class="header_text_2">Втілення гостинності та смаку в серці природи</h3>
+                </div>
+                <div class="center_text_bottom">
+                    <div class="icons_list">
+                        <a href="https://instagram.com/hotel.helikon?igshid=MzRlODBiNWFlZA=="><img class="icons_media" src="./img/sticker_instagram.png" alt="Helikon Hotel Logo" width="39" height="36"></a>
+                        <a href="https://www.facebook.com/helikonhotel/"><img class="icons_media" src="./img/sticker_facebook.png" alt="Helikon Hotel Logo" width="39" height="36"></a>
+                        <a href="https://t.me/helikon_hotel"><img class="icons_media" src="./img/sticker_telegram.png" alt="Helikon Hotel Logo" width="39" height="36"></a>
+                    </div>
+                    <h3 class="header_text_2">Підписуйтесь на наші соціальні мережі</h3>
+                </div>
+                
+            </div>
+    </div>
+    <div class="location_container">
+        <div class="location">
+            <div class="left_side_text">
+                <h1 class="location_text">РОЗТАШУВАННЯ</h1>
+                <p class="location_paragraph">Готельно-ресторанний комплекс Helikon розташований в селі Яноші, що знаходиться в прекрасній  Закарпатській області. Наш  комплекс відпочинку 
+пропонує гостям комфортні номери та страви ресторану зі смачною місцевою кухнею.</p>
+                <p class="location_paragraph">Helikon стане прекрасним вибором для відпочинку із сім'єю, друзями або коханою людиною, де ви зможете насолодитися відмінним сервісом і незабутнім відпочинком.</p></p>
+            </div>
+            <a id="googleMap" href="https://www.google.com/maps?ll=48.250371,22.619148&z=15&t=m&hl=en&gl=HU&mapclient=embed&cid=15666353958824541404">
+            <div class="right_side_location" style="border:0;">
+                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10626.910425255199!2d22.6191476!3d48.2503708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738507c4c57bb03%3A0xd96a11ebf1457cdc!2sHotel%CA%B9%20Helikon%20Berehovo%20-%20Yanoshi!5e0!3m2!1sen!2shu!4v1691393677298!5m2!1sen!2shu" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </a>
+    </div>
+    
+    <div class="room_container">
+        <div id="hotelStandart" class="room">
+            <div class="left_side_room" style="height: 300px;">
+                <h1 class="location_text">НОМЕР МАНСАРД</h1>     
+                <div class="room_paragraphs">
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button">
+                    <span id="mansardPrice">1100₴</span>
+                </div>
+            </div>
+            <div class="right_side_room">
+                <img class="image_room" src="./img/mansard_1.png">
+            </div>
+            <div class="room_button second_button">
+                <span id="mansardPrice">1100₴</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="room_container_2 container_height">
+        <div class="room room2">
+            <div class="left_side_room_2">
+                <img class="image_room_2" src="./img/standart_31.png">
+            </div>
+            <div class="right_side_room_2">
+                <h1 class="room_text_2">НОМЕР СТАНДАРТНИЙ ДВОМІСНИЙ</h1>
+                <div class="room_paragraphs">
+                    <p class="room_text">Балкон</p>
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button_2">
+                    1200₴
+                </div>
+            </div>
+            <div class="left_side_room_2 second_image">
+                <img class="image_room" src="./img/standart_31.png">
+            </div>
+            <div class="room_button second_button">
+                1200₴
+            </div>
+        </div>
+    </div>
+    <div class="room_container">
+        <div class="room">
+            <div class="left_side_room">
+                <h1 class="location_text room_text_2">НОМЕР ТРИМІСНИЙ</h1>     
+                <div class="room_paragraphs">
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button">
+                    1650₴
+                </div>
+            </div>
+            <div class="right_side_room">
+                <img class="three_people image_room" src="./img/three_people_room.png">
+            </div>
+            <div class="room_button second_button">
+                    1650₴
+            </div>
+        </div>
+    </div>
+    <div class="room_container_2 room_height">
+        <div class="room">
+            <div class="left_side_room_2">
+                <img class="image_room_2"src="./img/half_luxe_room.png">
+            </div>
+            <div class="right_side_room_2 half_luxe">
+                <h1 class="room_text_2">НОМЕР НАПІВЛЮКС</h1>
+                <div class="room_paragraphs">
+                    <p class="room_text room_text_people">(До 2-х осіб)</p>
+                    <p class="room_text">Балкон</p>
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button_2">
+                    1650₴
+                </div>
+            </div>
+            <div class="left_side_room_2 second_image">
+                <img src="./img/half_luxe_room.png">
+            </div>
+            <div class="room_button second_button">
+                1650₴
+            </div>
+        </div>
+    </div>
+    <div class="room_container room_height2">
+        <div class="room">
+            <div class="left_side_room">
+                <h1 class="location_text room_text_2">НОМЕР ЛЮКС</h1>     
+                <div class="room_paragraphs">
+                    <p class="room_text room_text_people">(До 4-х осіб)</p>
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button">
+                    2300₴
+                </div>
+            </div>
+            <div class="right_side_room">
+                <img class="image_room" src="./img/luxe.png">
+            </div>
+            <div class="room_button second_button">
+                    2300₴
+            </div>
+        </div>
+    </div>
+    <div class="room_container_2 luxe1">
+        <div class="room">
+            <div class="left_side_room_2">
+                <img class="image_room_2" src="./img/luxe_one_room.png">
+            </div>
+            <div class="right_side_room_2"> <!--style="margin-left: 227px;" -->
+                <h1 class="room_text_2">НОМЕР ЛЮКС ОДНОКІМНАТНИЙ</h1>
+                <div class="room_paragraphs">
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button_2">
+                    2300₴
+                </div>
+            </div>
+            <div class="left_side_room_2 second_image">
+                <img src="./img/luxe_one_room.png">
+            </div>
+            <div class="room_button second_button">
+                    2300₴
+            </div>
+        </div>
+    </div>
+    <div class="room_container family_container">
+        <div class="room">
+            <div class="left_side_room family">
+                <h1 class="location_text room_text_2">НОМЕР СІМЕЙНИЙ</h1>     
+                <div class="room_paragraphs">
+                    <p class="room_text">Балкон</p>
+                    <p class="room_text">Кондиціонер</p>
+                    <p class="room_text">Патіо</p>
+                    <p class="room_text">Власна ванна кімната</p>
+                    <p class="room_text">Телевізор з плоским екраном</p>
+                    <p class="room_text">Звукоізоляція</p>
+                    <p class="room_text">Безкоштовний Wi-Fi</p>
+                    <p class="room_text2">Платникам ПДВ надаються
+додаткові умови оплати за
+проживання.</p>
+                </div>
+                <div class="room_button">
+                    2300₴
+                </div>
+            </div>
+            <div class="right_side_room">
+                <img class="image_room" src="./img/family_room.png">
+            </div>
+            <div class="room_button second_button">
+                2300₴
+            </div>
+        </div>
+    </div>
+    <div class="glass_container">
+        <div class="glass_elements">
+            <h1 class="glass_text">ВІДКРИЙТЕ ДВЕРІ ДО ВЛАСНОГО ВІДПОЧИНКУ!</h1>
+            <a href="https://www.booking.com/hotel/ua/otiel-gielikon.en-gb.html" target=”_blank”>
+                <div class="glass_button">
+                    ЗАБРОНЮВАТИ
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="background"></div>
+    <div class="restourant_container" id="restaurant">
+        <div class="restourant_elements">
+            <h1 class="restourant_text">РЕСТОРАН</h1>
+                <a href="https://drive.google.com/file/d/1FAwfvwoarfhli2AD0SBdo2OwLn0RO6tQ/view?usp=sharing" target=”_blank”>
+                    <div class="restourant_button">
+                        МЕНЮ
+                    </div>
+                </a>
+        </div>
+    </div>
+    <div class="background"></div>
+    <div class="additional_proposals_container" id="additionalService">
+        <div class="additional_proposals">
+            <h1 class="text_additional_proposals">ДОДАТКОВІ ПРОПОЗИЦІЇ</h1>
+            <div class="additional_proposals_sides">
+                <div class="additional_left_side">
+                <h1 class="additional_right_text">СОЛЯНА КІМНАТА</h1>
+                    <div class="additional_flex">
+                        <div class="left2_side">
+                            <p>Тривалість</p>
+                            <p class="add_bold">45 хв</p>
+                        </div>
+                        <div class="right2_side">
+                            <p>Вартість</p>
+                            <p class="add_bold">50 грн</p>
+                        </div>
+                    </div>
+                    <div class="abonement">
+                        <p>Абонемент</p>
+                        <p class="add_bold">450 грн</p>
+                    </div>
+                </div>
+                <div class="additional_right_side">
+                    <div class="right_side_info">
+                        <h1 class="additional_right_text">КОНФЕРЕНЦ-ЗАЛИ</h1>
+                        <p class="additional_right_text_2">Детальнішу інформацію щодо оренди залу та її вартості запитуйте за номером телефону:</p>
+                        <p class="additional_right_phone"><a href="tel:+380505943791">+380505943791</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer_container">
+        <div class="footer" id="contacts">
+            <div class="left_footer">
+                <h1 class="footer_text">Контакти</h1>
+                <p class="footer_text_2">+380 (50) 594 37 91</p>
+                <h1 class="footer_text">Адреса</h1>
+                <p class="footer_text_2">Берегівський р-н, с.Яноші, вул.Шевченка 45</p>
+            </div>
+            <div class="right_footer">
+                <h1 class="footer_text">Графік роботи</h1>
+                <p class="footer_text_2">Пн-нд-  8:00-22:00</p>
+                <h1 class="footer_text">Email</h1>
+                <p class="footer_text_2">helikon.janosi@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./scripts/jquery.js"></script>
+<script src="./scripts/scipt.js"></script>
+</html>

@@ -1,0 +1,1371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    max-width: 100%;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.room_button, .second_button {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center, .location, .room, .glass_elements, .restourant_elements, .additional_proposals, .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    padding-top: 40px;
+}
+
+.icon{ 
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.google_map {
+    width: 100%;
+    height: 100%;
+}
+
+.un_list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.header_ul_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_part {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.language {
+    margin-top: 8px;
+    margin-left: 110px;
+    cursor:pointer;
+}
+
+.language:hover {
+    cursor:pointer;
+}
+
+.change_lng {
+    appearance: none;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.option_selected {
+    border: 0px;
+    background: black;
+}
+
+select:active, select:focus{
+    outline:none;
+    text-align: center;
+    border: none;
+}
+
+.center_text {
+    color: white;
+    padding-left: 40px;
+    margin-top: 200px;
+}
+
+.header_text {
+    font-size: 82px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.header_text_2 {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons_list{
+    margin-top: 120px;
+}
+
+.icons_media{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.location_container {
+    background-color: #6B7B62;
+    border-top: 1px solid white;
+    max-height: 600px;
+}
+
+.room_container {
+    background-color: rgba(66, 76, 59, 1);
+    border-top: 1px solid white;
+    max-height: 630px;
+}
+
+.room_button {
+    padding: 10px;
+}
+
+.left_side_text {
+    width: 600px;
+    height: 200px;
+    color: rgba(255, 255, 255, 0.37);
+    margin-top: 80px;
+    max-height: 600px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right_side_location{
+    background-color: white;
+    width: 400px;
+    height: 100vh;
+    margin-left: 170px;
+    max-height: 600px;
+}
+
+.location, .room {
+    display: flex;
+}
+
+.location_paragraph {
+    padding-top: 33px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.left_side_room {
+    width: 600px;
+    height: 200px;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 0px;
+    margin-top: 80px;
+    max-height: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right_side_room {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 80px;
+    max-height: 600px;
+}
+
+.room_paragraphs {
+    margin-top: 80px;
+}
+
+.room_text {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.room_text2 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.room_button{
+    width: 200px;
+    height: 60px;
+    font-size: 32px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+.room_button:hover, .room_button_2:hover {
+    cursor: pointer;
+    font-size: 33px;
+    border: 1px solid white;
+}
+
+.room_container_2 {
+    background-color: rgba(66, 76, 59, 1);
+    border-top: 1px solid white;
+    max-height: 800px;
+}
+
+.left_side_room_2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.right_side_room_2{
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.room_button_2 {
+    width: 200px;
+    height: 60px;
+    font-size: 32px;
+    margin-left: 240px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 1.4%;
+    color: white;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+.glass_container {
+    background: url("../img/glass.png");
+    background-color: rgb(180, 177, 177);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 650px;
+    object-fit: cover;	
+}
+
+.glass_elements, .restourant_elements{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+}
+
+.glass_text, .restourant_text {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 42px;
+    opacity: 1;
+    width: 800px;
+    color: #ffffff;
+    margin: auto;
+}
+
+.half_luxe {
+    width: 100%;
+}
+
+.background {
+    background-color: rgba(66, 76, 59, 1);
+    height: 200px;
+}
+
+.glass_button, .restourant_button {
+    width: 320px;
+    height: 80px;
+    background-color: rgba(66, 76, 59, 1);
+    color: white;
+    margin: auto;
+    padding-top: 22px;
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.restourant_container {
+    background: url("../img/restourant_1.png");
+    background-color: rgba(102, 102, 102, 0.618);
+    background-blend-mode: multiply;
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 650px;
+}
+
+.restourant_text {
+    font-size: 62px;
+}
+
+.additional_proposals_container {
+    background-color: rgba(66, 76, 59, 1);
+}
+
+.additional_proposals {
+    text-align: center;
+    color: white;
+    height: 900px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.additional_proposals_sides {
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+    margin-top: 40px;
+}
+
+.additional_left_side {
+    background-image: url("../img/room_1.png");
+    background-color: rgba(33, 32, 32, 0.618);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 530px;
+    height: 650px;
+    padding-top: 300px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.additional_right_side{
+    background-image: url("../img/room_2.png");
+    background-color: rgba(75, 74, 74, 0.618);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 530px;
+    height: 650px;
+}
+
+.additional_flex {
+    display: flex;
+    padding-top: 40px;
+}
+
+.add_bold {
+    font-weight: 700;
+}
+
+.left2_side {
+    padding-left: 40px;
+    margin-right: 30px;
+}
+
+.abonement {
+    padding-top: 30px;
+}
+
+.text_additional_proposals {
+    margin-top: -100px;
+    padding-bottom: 50px;
+}
+
+.additional_right_text{
+    font-size: 30px;
+}
+
+.additional_right_text_2{
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 40px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.additional_right_phone{
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.location_text {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right_side_info{
+    padding-top: 300px;
+}
+
+.footer_container {
+    background-image: url("../img/footer.png");
+    background-color: rgba(75, 74, 74, 0.618);
+    background-blend-mode: multiply;
+}
+
+.footer{
+    padding: 30px 30px;
+    display: flex;
+    gap: 150px;
+}
+
+.footer_text {
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer_text_2{
+    color: white;
+    font-weight: 100;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a[href^="tel:"] {
+    color: white;
+}
+
+.three_people {
+    margin-left: 87px;
+}
+
+.image_room {
+    width: 600px;
+    height: 400px;
+    margin-left: 365px;
+}
+
+.image_room_2 {
+    width: 600px;
+    height: 400px;
+}
+
+.room_text_2 {
+    color: rgba(255, 255, 255, 0.37);
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.room_text_people {
+    margin-top: -40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.none {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.second_image {
+    display: none;
+}
+
+.second_button {
+    display: none;
+}
+
+.list2 {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .un_list li a{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .un_list {
+        margin-left: 80px;
+    }
+    .change_lng {
+        font-size: 24px;
+    }
+    .image_room_2, .image_room{
+        width: 400px;
+        height: 300px;
+    }
+    .center, .location, .room, .glass_elements, .restourant_elements, .additional_proposals, .footer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .additional_proposals_sides {
+        gap: 0px;
+    }
+    .restourant_container, .glass_container {
+        height: 600px;
+    }
+    .right_side_room_2  {
+        width: 100%;
+    }
+    .image_room {
+        margin-left: 275px;
+    }
+    .room_button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .center, .location, .room, .glass_elements, .restourant_elements, .additional_proposals, .footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .additional_proposals_sides {
+        gap: 0px;
+    }
+    .un_list li a{
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .un_list {
+        margin-left: 130px;
+    }
+    .language {
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 980px) {
+    .un_list li a{
+        font-size: 17px;
+        margin-left: 18px;
+    }
+}
+
+@media (max-width: 930px) {
+    .right_side_room_2, .right_side_room {
+        width: auto;
+    }
+    .right_side_location {
+        width: auto;
+        margin-left: 0px;
+        max-height: 400px;
+    }
+    .image_room {
+        margin-left: 40px;
+    }
+    .room_button_2 {
+        margin-left: 120px;
+    }
+    .glass_text, .restourant_text {
+        width: 80vw;
+    }
+    .un_list li a{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .additional_right_side {
+        width: 50vw;
+    }
+    .additional_right_text_2 {
+        width: 100%;
+    }
+    .room_container, .room_container_2 {
+        width: 100vw;
+        max-height: 690px;
+    }
+    .room {
+        width: 100vw;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left_side_room, .left_side_room_2 {
+        width: 100vw;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .room_button {
+        display: none;
+    }
+    .second_button {
+        display: block;
+    }
+    .room_container {
+        height: 690px;
+    }
+    .room_container_2 {
+        height: 720px;
+        max-height: 720px;
+    }
+    .right_side_room, .right_side_room_2 {
+        width: 100vw;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .image_room {
+        margin: 0;
+        padding: 0;
+    }
+    .room_paragraphs {
+        margin-top: 20px;
+    }
+    .second_button {
+        display: flex;
+        justify-content: center;
+    }
+    .room_button {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .room_button_2 {
+        display: none;
+    }
+    .left_side_room_2 {
+        padding: 0;
+    }
+    .right_side_room_2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .room2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .left_side_room_2 {
+        display: none;
+        margin-top: 0px;
+    }
+    .second_image {
+        display: block;
+    }
+    .main_part, .location_container {
+        width: 100vw;
+    }
+    .un_list {
+        margin-left: 70px;
+    }
+    .un_list li a {
+        font-size: 17px;
+    }
+    .language {
+        width: 120px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .glass_container, .restourant_container {
+        height: 530px;
+    }
+    .room_text_people {
+        margin-top: 0px;
+    }
+    .left_side_room {
+        height: 100%;
+    }
+    .room_height {
+        height: 810px;
+        max-height: 810px;
+    }
+    .room_height2 {
+        height: 720px;
+        max-height: 720px;
+    }
+    .family_container {
+        height: 700px;
+        max-height: 700px;
+    }
+    body {
+        /*overflow-x: hidden;*/
+    }
+    .additional_proposals_sides {
+        gap: 0px;
+    }
+    .additional_left_side, .additional_right_side {
+        width: 50%;
+    }
+}
+
+@media (max-width: 870px) {
+    .un_list {
+        margin-left: 30px;
+    }
+    .language {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 810px) {
+    .un_list li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    .un_list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .un_list li a {
+        font-size: 24px;
+    }
+    .list, .language {
+        display: none;
+    }
+    .menu_button {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu_span {
+        width: 50px;
+        margin-bottom: 10px;
+        height: 10px;
+        border-radius: 2px;
+        background-color: white;
+    }
+    .header {
+        display: flex;
+        gap: calc(75vw + 20px);
+    }
+    .location {
+        height: 500px;
+        max-height: 500px;
+    }
+    #googleMap, .right_side_location , .google_map {
+        height: 100%;
+        max-height: 100%;
+    }
+    .container_height {
+        height: 760px;
+        max-height: 760px;
+    }
+    .text_additional_proposals {
+        font-size: 52px;
+    }
+    .left2_side {
+        padding-left: 10px;
+    }
+    .glass_text {
+        padding-top: 10px;
+    }
+    .restourant_text {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 590px) {
+    .header {
+        display: flex;
+        gap: calc(70vw + 20px);
+    }
+    .luxe1{
+        height: 780px;
+        max-height: 780px;
+    }
+    .additional_left_side, .additional_right_text_2 {
+        font-size: 22px;
+    }
+    .additional_right_text {
+        font-size: 26px;
+    }
+    .glass_text {
+        padding-top: 30px;
+    }
+    .glass_button {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .main_part, .location_container{
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .second_image {
+        display: block;
+    }
+    .icon img {
+        width: 50px;
+        height: 50px;
+        margin-left: 40px;
+    }
+    .un_list {
+        flex-direction: column;   
+    }
+    .location {
+        display: block;
+        background-color: #6B7B62;
+    }
+    .location a {
+        padding: 0;
+        margin: 0;
+    }
+    .location_container {
+        background-color: #6B7B62;
+    }
+    .right_side_location, .room_text_2 {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .right_side_location {
+        width: 80vw;
+    }
+    .left_side_text {
+        min-height: 300px;
+    }
+    #googleMap {
+        height: 200px;
+    }
+    .location_paragraph {
+        font-size: 16px;
+    }
+    .location_paragraph, .location_text {
+        margin: 0 auto;
+        width: 80vw;
+    }
+    body, .html, .left_side_room {
+        width: 100vw;
+    }
+    .left_side_room {
+        height: 320px;
+    }
+    .left_side_text {
+        width: 100vw;
+        min-height: 390px;
+    }
+    .room {
+        display: block;
+    }
+    .image_room {
+        padding: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 70vw;
+        height: 300px;
+    }
+    .left_side_room_2 img, .right_side_room_2 img {
+        width: 100vw;
+        height: 400px;
+    }
+    .room_container, .room_container_2 {
+        height: 740px;
+        max-height: 1240px;
+    }
+    .right_side_room, .right_side_room_2 {
+        margin-top: 0px;
+    }
+    .room_container_2 {
+        height: 780px;
+        max-height: 890px;
+    }
+    .room_button {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .room .left_side_room_2 {
+        display: none;
+    }
+
+    .room .second_image {
+        display: block;
+    }
+    .right_side_room_2 {
+        width: 100vw;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    .room_text_2 {
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.37);
+        max-height: 600px;
+        font-size: 36px;
+        width: 100vw;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .room_text {
+        text-align: left;
+    }
+
+    .room_text2 {
+        text-align: left;
+    }
+
+    .room_button_2 {
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-top: 8px;
+    }
+
+    .left_side_room_2 {
+        padding-top: 10px;
+    }
+
+    .location_text {
+        width: 100vw;
+        font-size: 34px;
+        text-align: center;
+    }
+    .right_side_room_2 .room_paragraphs {
+        padding-left: 40px;
+    }
+    
+    .room_paragraphs {
+        padding-left: 40px;
+        margin-top: 40px;
+    }
+    
+    .room_button, .room_button_2 {
+        display: none;
+    }
+
+    .second_button {
+        display: block;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .room_container .room {
+        height: 600px;
+    }
+
+    .left_side_room_2 {
+        padding-bottom: 10px;
+    }
+
+    .three_people {
+        padding-top: 10px;
+    }
+    .half_luxe {
+        margin-left: 0px;
+    }
+
+    .family {
+        height: 360px;
+    }
+
+    .glass_text, .restourant_text {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .footer {
+        gap: 30px;
+    }
+    .footer_text {
+        font-size: 16px;
+    }
+
+    .footer_text_2 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .additional_proposals_sides {
+        display: block;
+    }
+    .additional_left_side, .additional_right_side {
+        width: 100vw;
+    }
+    .additional_proposals {
+        height: auto;
+    }
+    .family_container {
+        height: 1120px;
+    }
+    .luxe1 {
+        height: 810px;
+    }
+    .language {
+        display: none;
+    }
+    .menu_button {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu_span {
+        width: 50px;
+        margin-bottom: 10px;
+        height: 10px;
+        border-radius: 2px;
+        background-color: white;
+    }
+
+    .header {
+        display: flex;
+        gap: calc(65vw - 20px);
+    }
+    .list, .list2 {
+        display: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .un_list li {
+        text-align: left;
+    }
+    .un_list li a{
+        font-size: 32px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .left2_side {
+        padding-left: 20px;
+    }
+
+    .un_list li a:hover {
+        text-decoration: underline;
+    }
+
+    .un_list {
+        margin-top: 30px;
+        margin-bottom: -100px;
+    }
+    
+    .header_ul_item {
+        margin-left: 40px;
+    }
+
+    .header_text_2 {
+        width: 80vw;
+    }
+
+    .center {
+        height: 100vh;
+    }
+
+    .text_additional_proposals {
+        font-size: 22px;
+    }
+
+    .additional_right_text_2 {
+        width: 100vw;
+        padding-right: 20px;
+    }
+
+    html, body {
+        max-width: 100vw;
+    }
+    #googleMap {
+        width: 80vw;
+    }
+
+    .center_text {
+        margin-top: 90px;
+    }
+    .right_side_location, .google_map {
+        width: 100vw;
+        height: 300px;
+        max-height: 300px;
+    }
+    .location {
+        height: 100%;
+        max-height: 900px;
+    }
+    .location_container {
+        max-height: 800px;
+    }
+    .icons_list {
+        margin-top: 150px;
+    }
+    .left2_side {
+        padding-left: 45px;
+    }
+    .glass_text {
+        padding-top: 60px;
+    }
+    .right_side_room {
+        height: 300px;
+    }
+    .family_container {
+        height: 710px;
+    }
+    .family {
+        height: 300px;
+    }
+
+    .room .second_image img {
+        padding: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 70vw;
+        height: 300px;
+    }
+
+    .container_height {
+        height: 2100px;
+    }
+    .room_height {
+        height: 900px;
+        max-height: 950px;
+    }
+
+    .glass_button, .restourant_button {
+        width: 240px;
+        font-size: 24px;
+    }
+
+    .un_list li a {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .icons_list {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 410px) {
+    .header {
+        display: flex;
+        gap: calc(60vw - 20px);
+    }
+}
+
+@media (max-width: 370px) {
+    .header {
+        gap: calc(50vw - 20px);
+    }
+
+    .center_text {
+        margin-top: 40px;
+    }
+
+    .header_text {
+        font-size: 54px;
+    }
+
+    .header_text_2 {
+        width: 70vw;
+        font-size: 20px;
+    }
+
+    .icons_list {
+        margin-top: 160px;
+    }
+
+    .un_list {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .center {
+        height: 100vh;
+    }
+
+    .icons_list a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    li {
+        margin: 0px;
+    }
+
+    .un_list li a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .location_paragraph, .location_text {
+        font-size: 28px;
+    }
+
+    .location_paragraph {
+        font-size: 12px;
+    }
+
+    .additional_left_side {
+        width: 100vw;
+    }
+
+    .additional_left_side {
+        padding-left: 0px;
+    }
+
+    .room_text, .room_text_2 {
+        font-size: 22px;
+    }
+
+    .container_height {
+        height: 820px;
+    }
+
+    .room_height {
+        height: 830px;
+    }
+}
+
+@media (max-width: 320px) {
+    .location_paragraph {
+        font-size: 12px;
+    }
+
+    .location_text {
+        font-size: 22px;
+    }
+
+    .room_text, .room_text_2 {
+        font-size: 20px;
+    }
+
+    .glass_text {
+        font-size: 22px;
+    }
+
+    .glass_button, .restourant_button {
+        width: 180px;
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .left2_side {
+        padding-left: 5px;
+    }
+    
+    .footer {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons_list {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 270px) {
+    .header {
+        gap: calc(35vw - 20px);
+    }
+
+    .location_text {
+        font-size: 18px;
+    }
+
+    .container_height {
+        height: 1050px;
+    }
+
+    .room_text, .room_text_2 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .right_side_room_2, .room_paragraphs {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .right_side_info {
+        padding-top: 120px;
+    }
+    .right_side_room_2 .room_paragraphs {
+        padding-left: 0px;
+    }
+
+    .additional_right_phone {
+        font-size: 18px;
+    }
+
+    .additional_flex {
+        align-items: center;
+        padding: 0;
+        padding-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left2_side, .right2_side {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .additional_left_side {
+        height: 400px;
+        padding-top: 50px;
+    }
+
+    .additional_right_side {
+        height: 550px;
+    }
+
+    .glass_button, .restourant_button {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .restourant_text {
+        font-size: 22px;
+    }
+
+    .glass_text {
+        font-size: 18px;
+    }
+
+    .glass_container, .restourant_container {
+        height: 440px;
+    }
+
+    .background {
+        height: 30px;
+    }
+
+    .text_additional_proposals {
+        padding-top: 40px;
+    }
+
+    .image_room {
+        margin: 0;
+    }
+
+    .room .second_image img {
+        margin: 0;
+    }
+
+    .icons_list {
+        margin-top: 70px;
+    }
+}
