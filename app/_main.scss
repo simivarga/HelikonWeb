@@ -4,30 +4,24 @@
     box-sizing: border-box;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .main_part{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-image: url('/img/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 700px;
 }
 .center_text{
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     max-width: 85%;
     width: 100%;
     margin: 2% auto;
     height: 50%;
 }
 .icons_list{
-    display: flex;
-    justify-content: space-between;
-    max-width: 30%;
+    max-width: 15%;
     min-width: 140px;
 }
 h1, h2, h3{
@@ -38,5 +32,5 @@ h1{
     font-family: 'Bebas Neue', sans-serif;
 }
 .center_text_top, .center_text_bottom{
-    max-width: 60%;
+    max-width: 90%;
 }

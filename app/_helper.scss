@@ -1,0 +1,44 @@
+// FLEX
+
+.flex{
+    display: flex;
+}
+.flex-ai-c{
+    align-items: center;
+}
+.flex-jc-c{
+    justify-content: center;
+}
+.flex-jc-sb{
+    justify-content: space-between;
+}
+.flex-jc-e{
+    justify-content: space-evenly;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-direction-column-r{
+    flex-direction: column-reverse;
+}
+.flex-direction-row{
+    flex-direction: row;
+}
+
+
+// Background properties
+.bg-cover-norepeat{
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+
+// Selection properties
+::-moz-selection{
+    background-color: rgba(131, 131, 131, 0.5);
+    color: rgba(250, 250, 250, 0.9);
+}
+::selection{
+    background-color: rgba(131, 131, 131, 0.5);
+    color: rgba(250, 250, 250, 0.9);
+}
