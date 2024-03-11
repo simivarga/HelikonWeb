@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="app/style.css">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;800&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Montserrat:ital,wght@0,200;0,300;0,400;0,800;1,200;1,300&family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
     <title>Готель Гелікон - Яноші</title>
 </head>
@@ -57,17 +58,17 @@
                                             пропонує гостям комфортні номери та страви ресторану зі смачною місцевою кухнею.</p>
                 <p class="location_paragraph">Helikon стане прекрасним вибором для відпочинку із сім'єю, друзями або коханою людиною, де ви зможете насолодитися відмінним сервісом і незабутнім відпочинком.</p></p>
             </div>
-            <a height: 100%; width: 100%; id="googleMap" href="https://www.google.com/maps?ll=48.250371,22.619148&z=15&t=m&hl=en&gl=HU&mapclient=embed&cid=15666353958824541404">
+            <a height: 100%; width: 100%; id="googleMap" href="https://www.google.com/maps?ll=48.250371,22.619148&z=15&t=m&hl=en&gl=HU&mapclient=embed&cid=15666353958824541404"></a>
             <div class="right_side_location" style="border:0;">
                 <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10626.910425255199!2d22.6191476!3d48.2503708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738507c4c57bb03%3A0xd96a11ebf1457cdc!2sHotel%CA%B9%20Helikon%20Berehovo%20-%20Yanoshi!5e0!3m2!1sen!2shu!4v1691393677298!5m2!1sen!2shu" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
                 <a href="https://www.google.hu/maps/place/Hotel%CA%B9+Helikon+Berehovo+-+Yanoshi/@48.2507519,22.6266895,15.58z/data=!4m9!3m8!1s0x4738507c4c57bb03:0xd96a11ebf1457cdc!5m2!4m1!1i2!8m2!3d48.2503708!4d22.6191476!16s%2Fg%2F1tg9lxbk?hl=hu&entry=ttu" class="utvonalterv" target="_blank">route</a>
-        </a>
     </div>
     
-    <div class="room_container">
-        <div id="hotelStandart" class="room">
-            <div class="left_side_room" style="height: 300px;">
+    <div class="room_container flex flex-ai-c flex-jc-c"  id="hotelStandart">
+        <div class="wrapper_rooms flex flex-ai-c flex-jc-e flex-direction-row-r">
+            <div class="left_side_room flex flex-ai-c flex-jc-sb
+            flex-direction-column">
                 <h1 class="location_text">НОМЕР МАНСАРД</h1>     
                 <div class="room_paragraphs">
                     <p class="room_text">Кондиціонер</p>
@@ -77,20 +78,64 @@
                     <p class="room_text">Звукоізоляція</p>
                     <p class="room_text">Безкоштовний Wi-Fi</p>
                     <p class="room_text2">Платникам ПДВ надаються
-додаткові умови оплати за
-проживання.</p>
+                                        додаткові умови оплати за
+                                        =проживання.</p>
                 </div>
                 <div class="room_button">
                     <span id="mansardPrice">1100₴</span>
                 </div>
             </div>
-            <div class="right_side_room">
-                <img class="image_room" src="./img/mansard_1.png">
-            </div>
-            <div class="room_button second_button">
-                <span id="mansardPrice">1100₴</span>
-            </div>
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <input type="radio" name="slider" id="slide4">
+                <div id="slides">
+                   <div id="overflow">
+                      <div class="inner">
+                         <div class="slide slide_1">
+                            <div class="slide-content">
+                               
+                               
+                            </div>
+                         </div>
+                         <div class="slide slide_2">
+                            <div class="slide-content">
+                               <h2>Slide 2</h2>
+                               <p>Content for Slide 2</p>
+                            </div>
+                         </div>
+                         <div class="slide slide_3">
+                            <div class="slide-content">
+                               <h2>Slide 3</h2>
+                               <p>Content for Slide 3</p>
+                            </div>
+                         </div>
+                         <div class="slide slide_4">
+                            <div class="slide-content">
+                               <h2>Slide 4</h2>
+                               <p>Content for Slide 4</p>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div id="controls">
+                   <label for="slide1"><i class="fa-solid fa-chevron-right"></i></label>
+                   <label for="slide2"><i class="fa-solid fa-chevron-right"></i></label>
+                   <label for="slide3"><i class="fa-solid fa-chevron-right"></i></label>
+                   <label for="slide4"><i class="fa-solid fa-chevron-right"></i></label>
+                </div>
+                <div id="bullets">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                   <label for="slide4"></label>
+                </div>
+             </div>
         </div>
+           
+        
     </div>
 
     <div class="room_container_2 container_height">
