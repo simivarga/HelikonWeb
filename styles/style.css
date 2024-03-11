@@ -159,7 +159,7 @@ select:active, select:focus{
 
 .right_side_location{
     background-color: white;
-    width: 400px;
+    width: 600px;
     height: 100vh;
     margin-left: 170px;
     max-height: 600px;

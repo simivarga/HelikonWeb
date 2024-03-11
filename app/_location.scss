@@ -1,0 +1,119 @@
+.location_container {
+    background-color: #6B7B62;
+    border-top: 1px solid white;
+    max-height: 500px;
+}
+.utvonalterv{
+    display: inline-block;
+    width: 20%;
+    background-color: aliceblue;
+    height: 30px;
+    display: none;
+}
+.location{
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    &_text{
+        color: rgba(255, 255, 255, 0.37);
+        font-weight:  1000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+    }
+    &_paragraph{
+        color: rgba(255, 255, 255, 0.603);
+        font-size: 1.2rem;
+    }
+}
+.left_side_text{
+    max-width: 600px;
+    width: 100%;
+    height: 350px;
+}
+.right_side_location{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 0;
+    max-height: 600px;
+}
+
+
+// Media 
+
+
+@media (max-width: 58rem) {
+    .left_side_text{
+        max-width: 400px;
+    }
+    .location{
+       
+        &_text{
+            font-size: 35px;
+        }
+        &_paragraph{
+            font-size: 1.1rem
+        }
+    }
+}
+@media (max-width: 48rem){
+    .left_side_text{
+        max-width: 350px;
+    }
+    .right_side_location{
+        max-width: 300px;
+    }
+    .location{
+       height: 100%;
+        &_text{
+            font-size: 30px;
+        }
+        &_paragraph{
+            font-size: .9rem
+        }
+    }
+    .location_container{
+        height: 400px;
+    }
+    .right_side_location{
+        height: 399px;
+    }
+}
+
+@media (max-width: 40rem){
+   .location_container{
+    max-height: 320px;
+   }
+    .location{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 20px auto;
+        gap: 10px;
+        height: 85%;
+        &_text{
+            text-align: center;
+        }
+        &_paragraph{
+            text-align: center;
+        }
+    }
+    .right_side_location{
+      display: none;
+    }
+    .utvonalterv{
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 10px 1px;
+        text-align: center;
+        background-color: #6B7B62;
+        color: white;
+        font-size: 1.4rem;
+        text-decoration: none;
+        min-width: 85px;
+    }
+    .utvonalterv:hover{
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+}
