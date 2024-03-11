@@ -1,16 +1,123 @@
 .room_container {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: rgba(66, 76, 59, 1);
+    border-top: 1px solid white;
 }
 .left_side_room{
-    height: 330px;
+    height: 430px;
     width: 600px
 }
 .wrapper_rooms{
     width: 90%;
     gap: 20px;
+    height: 550px;
 }
+.room_text {
+   font-size: 20px;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   color: rgba(255, 255, 255, 0.803);
+}
+.room_paragraphs{
+   gap:5px;
+   
+}
+.room_text2{
+   font-size: .8rem;
+   padding-top: 1rem;
+   color: rgba(255, 255, 255, 0.603);
+}
+
+#mansardPrice{
+   display: inline-block;
+   max-width: 100px;
+   width: 150%;
+   height: 40px;
+   border: 1px solid white;
+   border-radius: 10px 1px;
+   text-align: center;
+   color: white;
+   font-size: 1.9rem;
+   text-decoration: none;
+   min-width: 85px;
+   transition: all 300ms;
+}
+#mansardPrice:hover{
+   cursor: pointer;
+   color: rgba(0, 0, 0, 0.5);
+   background-color: white;
+   transition: all 300ms;
+}
+.room_title{
+      color: rgba(255, 255, 255, 0.37);
+      font-weight:  1000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+}
+.room_title_phone{
+   display: none;
+}
+
+@media (max-width: 48.5rem) {
+   .room_title{
+      font-size: 35px;
+   }
+   .room_text{
+      font-size: 1rem;
+   }
+}
+@media (max-width: 42rem) {
+   .room_container{
+      height: 900px;
+   }
+   .room_title{
+      display: none;
+   }
+   .room_title_phone{
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.37);
+      font-weight:  1000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+   }
+   .wrapper_rooms{
+   flex-direction: column-reverse;
+   height: 92%;
+  }
+}
+@media (max-width: 26.2rem) {
+   .room_paragraphs{
+      gap: 3px;
+      width: 50%;
+   }
+   .room_title_phone{
+      font-size: 25px;
+   }
+   #slides{
+      max-width: calc(100% - 130px);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #slider {
     min-width: 390px;
     width: 25%;
@@ -25,7 +132,7 @@
     text-decoration: none;
  }
  #slides {
-    padding: 10px;
+    padding: 0px;
     position: relative;
     z-index: 1;
  }
@@ -58,7 +165,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120%;
+    height: 150%;
     max-height: 500px;
     color: #fff;
     border-radius: 10px;
@@ -69,8 +176,9 @@
     border-radius: 10px;
  }
  #slides .slide_2 {
-    background: #003459;
-    border-radius: 10px;
+   background-image: url('/img/mansard_2.jpg');
+   background-size: cover;
+   border-radius: 10px;
  }
  #slides .slide_3 {
     background: #007EA7;
@@ -151,4 +259,35 @@
        margin: 0 auto;
     }
  }
+ @media screen and (max-width: 26.2rem) {
+   
+   #slides {
+      max-width: calc(100% - 100px);
+      margin: 0 auto;
+   }
+   #slides .slide{
+      height: 130%;
+   }
+   .room_container{
+      height: 800px;
+   }
+}
+@media screen and (max-width: 325px) {
+   .room_container{
+      height: 750px;
+   }
+   #slides {
+      max-width: calc(100% - 150px);
+      margin: 0 auto;
+   }
+   #slides .slide{
+      height: 105%;
+   }
+   .room_title_phone{
+      font-size: 22px;
+   }
+   .room_paragraphs{
+      width: 37%;
+   }
+}
 
