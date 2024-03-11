@@ -375,6 +375,11 @@ h1 {
   gap: 5px;
 }
 
+.room_paragraphs2 {
+  gap: 5px;
+  width: 100%;
+}
+
 .room_text2 {
   font-size: 0.8rem;
   padding-top: 1rem;
