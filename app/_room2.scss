@@ -13,29 +13,21 @@
     padding-top: 1rem;
     color: rgba(255, 255, 255, 0.603);
 }
-
-
-
-@media (max-width: 960px) {
-    #room_title2{
-        font-size: 2rem;
-    }
-    #left_side_room2{
-        height: 400px;
-    }
-    #room_text2{
-        font-size: 1rem;
-    }
+#slides2 .slide {
+   width: 25%;
+   float:left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 135%;
+   max-height: 500px;
+   color: #fff;
+   border-radius: 10px;
 }
-@media (max-width: 900px) {
-    #slides2 {
-       max-width: calc(100% - 100px);
-       margin: 0 auto;
-    }
-    #slides2 .slide{
-    height: 110%;    
-    }
- }
+
+
+
+
 
 
 
@@ -78,17 +70,7 @@
     height: 300px;
     
  }
- #slides2 .slide {
-    width: 25%;
-    float:left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 135%;
-    max-height: 500px;
-    color: #fff;
-    border-radius: 10px;
- }
+ 
  #slides2 .slide_21 {
     background-size: cover;
     border-radius: 10px;
@@ -143,9 +125,7 @@
       max-width: calc(100% - 100px);
       margin: 0 auto;
    }
-   #slides2 .slide{
-      height: 130%;
-   }
+   
    .room_container{
       height: 800px;
    }
@@ -169,3 +149,101 @@
    }
 }
 
+@media (max-width: 1000px) {
+   #room_title2{
+       font-size: 2rem;
+   }
+   #left_side_room2{
+       height: 400px;
+   }
+   #room_text2{
+       font-size: 1rem;
+   }
+}
+@media (max-width: 900px) {
+   #slides2 {
+      max-width: calc(100% - 100px);
+      margin: 0 auto;
+   }
+   #slides2 .slide{
+   height: 110%;    
+   }
+   #slider2{
+     min-width: 420px
+   }
+}
+@media (max-width: 830px){
+  #hotelStandart2{
+     height: 500px;
+  }
+  #room_title2{
+     font-size: 1.5rem;
+ }
+ #left_side_room2{
+     height: 350px;
+ }
+ #room_text2{
+     font-size: .8rem;
+ }
+ #room_text_small2{
+  font-size: .6rem;
+ }
+ #slides2 {
+  max-width: calc(100% - 130px);
+  margin: 0 auto;
+}
+  #slides2 .slide{
+  height: 100%;    
+  }
+}
+@media (max-width: 42rem){
+   #hotelStandart2{
+      height: 700px;
+   }
+   #room_title_phone2{
+      font-size: 22px;
+      width: 100%;
+      text-align: center;
+   }
+   #room_paragraphs2{
+      width: 50%;
+   }
+   #slider2 {
+      min-width: 470px;
+   }
+   #room_text2{
+      font-size: 1rem;
+   }
+   #room_text_small2{
+      font-size: .7rem;
+   }
+}
+@media (max-width: 520px){
+   #room_title_phone2{
+      font-size: 18px;
+   }
+   #slider2 {
+      min-width: 430px;
+   }
+   #slides2 .slide {
+      height: 90%;
+    }
+    #bullets2 {
+      margin: 130px 0 0;
+    }
+    #hotelStandart2 {
+      height: 650px;
+    }
+}
+@media (max-width: 325px) {
+   #slider2 {
+      min-width: 360px;
+    }
+    #slides2 .inner {
+      height: 220px;
+    }
+    #room_paragraphs2 {
+      width: 40%;
+    }
+    
+}
