@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/app/style.css">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
@@ -63,6 +63,7 @@
                 <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10626.910425255199!2d22.6191476!3d48.2503708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738507c4c57bb03%3A0xd96a11ebf1457cdc!2sHotel%CA%B9%20Helikon%20Berehovo%20-%20Yanoshi!5e0!3m2!1sen!2shu!4v1691393677298!5m2!1sen!2shu" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
                 <a href="https://www.google.hu/maps/place/Hotel%CA%B9+Helikon+Berehovo+-+Yanoshi/@48.2507519,22.6266895,15.58z/data=!4m9!3m8!1s0x4738507c4c57bb03:0xd96a11ebf1457cdc!5m2!4m1!1i2!8m2!3d48.2503708!4d22.6191476!16s%2Fg%2F1tg9lxbk?hl=hu&entry=ttu" class="utvonalterv" target="_blank">route</a>
+    </div>
     </div>
     
     <div class="room_container flex flex-ai-c flex-jc-c"  id="hotelStandart">
@@ -125,45 +126,43 @@
              <h1 class="room_title_phone">НОМЕР МАНСАРД</h1> 
         </div>
     </div>
-
- 
     <div class="room_container flex flex-ai-c flex-jc-c"  id="hotelStandart2">
-        <div class="wrapper_rooms flex flex-ai-c flex-jc-e flex-direction-row" id="wrapper_rooms2">
+        <div class="wrapper_rooms flex flex-ai-c flex-jc-e flex-direction-row">
+            
             <div class="left_side_room flex flex-ai-c flex-jc-sb
-            flex-direction-column"  id="left_side_room2">
-                <h1 class="room_title" id="room_title2">НОМЕР СТАНДАРТНИЙ ДВОМІСНИЙ</h1>     
-                <div class="room_paragraphs flex flex-direction-column " id="room_paragraphs2">
-                    <li class="room_text" id="room_text2">- Балкон</li>
-                    <p class="room_text"id="room_text2">- Кондиціонер</p>
-                    <p class="room_text"id="room_text2">- Патіо</p>
-                    <p class="room_text"id="room_text2">- Власна ванна кімната</p>
-                    <p class="room_text"id="room_text2">- Телевізор з плоским екраном</p>
-                    <p class="room_text"id="room_text2">- Звукоізоляція</p>
-                    <p class="room_text"id="room_text2">- Безкоштовний Wi-Fi</p>
-                    <p class="room_text_small"id="room_text_small2">*Платникам ПДВ надаються
+            flex-direction-column" style="height:520px;">
+                <h1 class="room_title">НОМЕР СТАНДАРТНИЙ ДВОМІСНИЙ</h1>     
+                <div class="room_paragraphs2 flex flex-direction-column">
+                    <p class="room_text">- Кондиціонер</p>
+                    <p class="room_text">- Патіо</p>
+                    <p class="room_text">- Власна ванна кімната</p>
+                    <p class="room_text">- Телевізор з плоским екраном</p>
+                    <p class="room_text">- Звукоізоляція</p>
+                    <p class="room_text">- Безкоштовний Wi-Fi</p>
+                    <p class="room_text_small">*Платникам ПДВ надаються
                                         додаткові умови оплати за
                                         проживання.</p>
                 </div>
                 <div class="room_button">
-                    <a href="https://www.booking.com/hotel/ua/otiel-gielikon.en-gb.html" id="mansardPrice" target="_blank">1200₴</a>
+                    <a href="https://www.booking.com/hotel/ua/otiel-gielikon.en-gb.html" id="mansardPrice" target="_blank">1100₴</a>
                 </div>
             </div>
             
-            <div id="slider2">
-                <input type="radio" name="slider" id="slide_21" checked>
-                <input type="radio" name="slider" id="slide_22">
-                <input type="radio" name="slider" id="slide_23">
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
                 
-                <div id="slides2">
+                <div id="slides">
                    <div id="overflow">
                       <div class="inner">
-                         <div class="slide slide_21" style="background-image: url('/img/standart_31.png');">
+                         <div class="slide slide_1">
                             <div class="slide-content">
                                
                                
                             </div>
                          </div>
-                         <div class="slide slide_22" style="background-image: url('/img/background.png'); ">
+                         <div class="slide slide_2">
                             <div class="slide-content">
                                
                             </div>
@@ -173,23 +172,23 @@
                       </div>
                    </div>
                 </div>
-                <div id="controls2">
-                   <label for="slide_21"></label>
-                   <label for="slide_22"></label>
+                <div id="controls">
+                   <label for="slide1"><i class="fa-solid fa-chevron-right"></i></label>
+                   <label for="slide2"><i class="fa-solid fa-chevron-right"></i></label>
                    
                 </div>
-                <div id="bullets2">
-                   <label for="slide_21"></label>
-                   <label for="slide_22"></label>
+                <div id="bullets">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
                    
                 </div>
              </div>
-             <h1 class="room_title_phone" id="room_title_phone2">НОМЕР СТАНДАРТНИЙ ДВОМІСНИЙ</h1> 
+             <h1 class="room_title_phone">НОМЕР МАНСАРД</h1> 
         </div>
-           
-        
     </div>
 
+ 
+    
 
 
     <div class="room_container_2 container_height">

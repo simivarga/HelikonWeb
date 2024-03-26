@@ -63,7 +63,7 @@
    display: none;
 }
 
-@media (max-width: 48.5rem) {
+@media (max-width: 880px) {
    .room_title{
       font-size: 35px;
    }
@@ -71,7 +71,7 @@
       font-size: 1rem;
    }
 }
-@media (max-width: 42rem) {
+@media (max-width: 730px) {
    .room_container{
       height: 900px;
    }
